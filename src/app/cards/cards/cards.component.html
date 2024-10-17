@@ -1,0 +1,9 @@
+<div class="card-container">
+  <div class="card" *ngFor="let card of cards">
+    <img [src]="card.image" alt="Card image" style="width:100%">
+    <button (click)="toggleDescription(card)">
+      {{ card.showDescription ? 'Hide' : 'Show' }} Description
+    </button>
+    <p *ngIf="card.showDescription">{{ card.description }}</p>
+  </div>
+</div>

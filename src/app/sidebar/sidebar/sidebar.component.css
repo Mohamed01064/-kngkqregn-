@@ -1,0 +1,40 @@
+.sidebar {
+  width: 90px; 
+  position: relative;
+  background-color: #343a40; 
+  color: white;
+  height: 100vh;
+  padding: 15px 10px; 
+  transition: width 0.3s ease; 
+}
+
+.sidebar i {
+  font-size: 30px;
+  cursor: pointer;
+  color: #ff9900; 
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.sidebar-menu li {
+  padding: 12px 0; 
+}
+
+.sidebar-menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px; 
+  padding-left: 10px; 
+  display: block;
+  transition: background-color 0.3s ease; 
+}
+
+.sidebar-menu li a:hover {
+  background-color: #495057; 
+  color: #ff9900; 
+  border-radius: 4px; 
+}
